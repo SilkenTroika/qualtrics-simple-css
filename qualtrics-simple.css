@@ -4,57 +4,57 @@ https://github.com/SilkenTroika/qualtrics-simple-css
 */
 
 body {
-	font-size:16px;
-	font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
-	background-color: red;
+	font-size:16px!important;
+	font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif!important;
+	background-color: red!important;
 }
 
 
 .Skin .MC .TextEntryBox, .Skin .TE .ESTB .InputText, .Skin .TE .FORM .InputText, .Skin .TE .ML .InputText, .Skin .TE .PW .InputText, .Skin .TE .SL .InputText {
-    width: 100%;
-	max-width: 100%;
-    margin: 2px 0;
-    font-size: 18px;
-    padding: 4px;
-    min-height: 44px;
+    width: 100%!important;
+	max-width: 100%!important;
+    margin: 2px 0!important;
+    font-size: 18px!important;
+    padding: 4px!important;
+    min-height: 44px!important;
 }
 
 .Skin .TE textarea:focus, .Skin input.TextEntryBox:focus, .Skin input[type=password]:focus, .Skin input[type=search]:focus, .Skin input[type=text]:focus, .Skin select:focus, .Skin textarea:focus {
-    border-color: #007ac0;
-    outline: 0;
+    border-color: #007ac0!important;
+    outline: 0!important;
 }
 
 .Skin .Button {
-    color: #ffffff;
-    background-color: #007ac0;
-    border: 1px outset #007ac0;
-    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
-    min-height: 44px;
-    padding: .5em 1em;
-    border-radius: 2px;
+    color: #ffffff!important;
+    background-color: #007ac0!important;
+    border: 1px outset #007ac0!important;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2)!important;
+    min-height: 44px!important;
+    padding: .5em 1em!important;
+    border-radius: 2px!important;
  }
 
  input#PreviousButton {
-    float: left;
+    float: left!important;
 }
 
 input#NextButton {
-    float: right;
+    float: right!important;
 }
 
 .Skin .MC .MAVR .QuestionBody label.MultipleAnswer, .Skin .MC .SAVR .QuestionBody label.SingleAnswer {
-    display: inline-block;
-    width: 85%;
-    min-height: 24px;
-    vertical-align: text-top;
+    display: inline-block!important;
+    width: 85%!important;
+    min-height: 24px!important;
+    vertical-align: text-top!important;
  }
 
 
 .JFEScope .Skin .q-matrix .answered-indicator {
-    /* font-size: 90%; */
-    padding-top: .5em;
-    opacity: .75;
-    height: 25px;
-    overflow: hidden;
-    color: #007ac0;
+    /* font-size: 90%!important; */
+    padding-top: .5em!important;
+    opacity: .75!important;
+    height: 25px!important;
+    overflow: hidden!important;
+    color: #007ac0!important;
  }
